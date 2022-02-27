@@ -1,0 +1,83 @@
+body{
+    margin: 0;   
+    padding: 0;
+    background-color: lavender;
+   }
+   .cal{
+       display: flex;
+       display: block;
+       width: 450px;
+       padding:50px 10px 20px 10px;
+       position: absolute;
+       top: 10%;
+       left: 30%;
+       transition: 0.25px;
+       background-color: palevioletred;
+       text-align: center;
+       border-radius: 20px;
+       
+   }
+   #display{
+       border: 3px;
+       background: palegreen;
+       border-radius: 30px;
+       width: 350px;
+       font-size: 20px;
+       font-family: sans-serif;
+       font-weight: 300;
+       height: 70px;
+       margin: auto;
+       border: 3px solid;
+       color: black;
+   }
+   .btn{
+       width: 55px;
+       height: 55px;
+       padding-top: -1;
+       border:2px solid;
+       font-family:'Times New Roman', Times, serif;
+       font-size: 20;
+       font-weight: 20;
+       border-radius: 35px;
+       margin: 1.5;
+   }
+   .btn:hover{
+       background:purple;
+   }
+   .opr{
+       width: 55px;
+       height: 55px;
+       padding-top: -1;
+       border: 2px solid black;
+       font-family:'Times New Roman', Times, serif;
+       font-size: 20;
+       font-weight: 20;
+       border-radius: 35px;
+       margin: 1.5;
+       background-color:pink;
+       color: white;
+       cursor: pointer;
+   }
+   .opr:hover{
+       background:rgb(44,55,66);
+   }
+   .zero{
+       width: 115px;
+       height: 55px;
+       padding-top: -1;
+       border: 2px solid black;
+       font-family:'Times New Roman', Times, serif;
+       font-size: 20;
+       font-weight: 20;
+       border-radius: 35px;
+       margin: 1.5;
+       background-color: rgb(93, 93, 107);
+       color: white;
+       cursor: pointer;
+       
+   }
+   .zero:hover{
+       background-color: plum;
+   }
+
+   

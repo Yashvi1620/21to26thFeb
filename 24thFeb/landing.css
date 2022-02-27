@@ -1,0 +1,43 @@
+body{
+    margin:0px;
+    background-color: black;
+}
+.mid{
+    font-size: 15px;
+    color: cornsilk;
+    text-align: center;
+    left: 40%;
+    top: 30%;
+    display: flex;
+    align-items: center;
+    
+    display: inline-block;
+    font-weight: bold;
+}
+.header{
+    text-align: center;
+    left:40%;
+}
+img{
+    height: 600px;
+    margin-top: 5%;
+    width: 500px;
+    display: flex;
+}
+.side{
+    font-size: 25px;
+    color: cornsilk;
+    text-align: center;
+    float: right;
+}
+.content{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(230, 77, 136);
+    float: right;
+    flex: content;
+    flex-direction: row;
+    margin-top: -30%;
+    left: 10%;
+    
+}

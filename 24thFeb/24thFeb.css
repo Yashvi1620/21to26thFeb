@@ -1,0 +1,109 @@
+body{
+    
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-top: 60%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+form
+{
+    background-color: skyblue;
+    position: fixed;
+    top: 100px;
+    left: 600px;    
+}
+.head
+{
+    margin: 0;
+    min-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(219, 220, 224);
+    border: 1px solid rgb(209, 208, 208); 
+    font-size: 24px;
+    font-style: italic;   
+    font-weight: bold;
+    color: lightslategray;
+    
+}
+.name:hover
+{
+    cursor: pointer;
+}
+.icons
+{
+    margin: 0;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(219, 220, 224);    
+}
+.icons img
+{
+    opacity: 0.5;
+}
+.icons:hover
+{
+    cursor: pointer;
+}
+
+ h6
+{
+    text-align: center;
+    font-size: 10px;
+    opacity: 0.5;
+}
+.chat
+{
+    height: 280px;
+    overflow-y: scroll;
+    
+}
+.chat [type=name]
+{
+    border: none;
+    
+}
+.message
+{
+    width: 3px;
+    margin-top: -1%;
+    border-radius: 10px solid blue;
+}
+.message [type=name]
+{
+    width: 170px;
+    padding: 10px;
+    border-bottom: none;
+    border-left: none;
+    right:50px;
+    
+    padding-right: -100px;
+    
+    
+    
+}
+.add
+{
+    display: flex;
+}
+.add > #emoji:hover
+{
+    cursor: pointer;
+    background-color: rgb(197, 185, 185);
+}
+.chat [type=name]
+{
+    border-radius: 27px;
+    background: rgb(29, 70, 204);
+    padding: 14px;
+    color: black;
+    font-weight: bolder;
+}

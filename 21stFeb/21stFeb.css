@@ -1,0 +1,75 @@
+body{
+    background-color:bisque;
+    margin: 20px;
+    padding: 0px;
+}
+.menu,h3{
+    border-radius:7px;
+    padding: 10px;
+    font-size: 25px;
+    box-shadow: 3px 3px 4px;
+    background-color: burlywood;
+    border:2px solid #acb4ff;
+    color: black;
+}
+.in{
+    display: inline-block;
+    margin: 30px;
+    padding: 0;
+    width: 200px;
+}
+.no{
+    display: none;
+}
+.trigger{
+    display:none;
+}
+.dropdown:hover>.trigger{
+    display:initial;
+}
+.punjabi:hover>ul{
+    display: initial;
+}
+.Gujarati:hover>ul{
+    display: initial;
+}
+.SouthIndian:hover>ul{
+    display: initial;
+}
+.Rajasthani:hover>ul{
+    display: initial;
+}
+.main{
+    text-align: center;
+}
+ul{
+    text-align: left;
+}
+.menu:hover,h3:hover{
+    background-color: #abcd;
+    border:2px solid #54bad9;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 30px;
+    box-shadow: 3px #78a2ff;
+}
+li:hover{
+    cursor:pointer;
+    color: #acb4ff;
+    background-color: antiquewhite;
+    padding-left: 10px;
+    border-radius: 6px;
+    font-size:x-large;
+}
+li{
+    font-size: x-large;
+    color: purple;
+    list-style: none;
+    font-weight: bold;
+    font-style: italic;
+}
+.menu{
+    display: inline-block;
+    width: 600px;
+}

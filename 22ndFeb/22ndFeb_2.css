@@ -1,0 +1,67 @@
+body{
+   margin: 0px;
+   background: rgb(142, 142, 150);
+   background: linear-gradient(90deg, rgb(126, 123, 190) 0%, #e727d435 0%, rgba(255,0,207,1) 100%, rgb(126, 72, 116) 159%);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.game{
+    text-align: center;
+    font-size: 45px;
+    border: 10px solid;
+}
+.image:hover{
+    background-color: pink;
+}
+.content{
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    border: solid purple;
+    font-style: italic;
+    margin-top: 600px;
+}
+img{
+    display: flex;
+    height: 500px;
+    margin-top: 10%;
+    text-align: center;
+}
+.image {
+    position:absolute;
+    max-width:95%;
+    max-height:55%;
+    top:40%;
+    left:5%;
+    overflow:visible;
+    cursor: pointer;
+    
+}
+img.scissor {
+    position:relative;
+    max-width:200%;
+    max-height:150%;
+    margin-top:10px;
+    margin-left:10%;
+    display: flex;
+}
+
+button{
+    background-color: plum;
+    color: purple;
+    border-radius: 10px;
+    border:5px solid purple;
+    margin-left: 850px;
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    justify-content: center;
+    font-size:larger;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}

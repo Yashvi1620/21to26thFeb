@@ -1,0 +1,107 @@
+*{  box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    
+}
+img{
+    width: 500px;
+    height: 520px;
+}
+.main{
+    border-radius: 25px lightblue;
+    border: 15px solid lightskyblue;
+}
+
+body{
+    margin: 40px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: rgb(224, 226, 248);
+}
+h3,h6{
+    text-align: center;
+    font-size: 14px;
+    background-color: lightblue;
+    font-weight: bolder;
+    color:black;
+    border-radius: 5px solid #72a0d6;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+form{
+    height: 520px;
+    width: 500px;
+    background:skyblue;
+    border:10px;
+    border-radius: 20px solid lightskyblue;
+    display: grid;
+    justify-items: center;
+    align-items: right;
+    left: 100px;
+    float: right;
+    top: 10px;
+}
+.form-title,button{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+form>[type=checkbox]{
+    border: none;
+    background-color: skyblue;
+}
+input{
+    font-size: 20px;
+    background: rgb(156, 210, 233);
+    width: 364px;
+    padding: 9.5px 19.6px;
+    border: 3px solid skyblue;
+    border-radius: 7px;
+}
+
+input,input::placeholder{
+    color:black;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+div a{
+    font-size:  15px;
+    color: rgb(44, 78, 192);
+    text-decoration: none;
+}
+div a:hover{
+    text-decoration: underline;
+}
+div a:active{
+    color: rgb(44, 78, 192);
+    text-decoration: none;
+}
+button{
+    margin-bottom: 1%;
+    height: 45px;
+    width: 363px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(37, 90, 236);
+    color:lightskyblue;
+    box-shadow: none;
+    cursor: pointer;
+}
+button:hover{
+    background: blue;
+    color:lightslategray;
+}
+button:active{
+    opacity: 0.0;
+}
+select{
+    background-color: lightskyblue;
+    color: black;
+}
+
+
